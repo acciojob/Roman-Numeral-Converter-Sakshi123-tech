@@ -7,9 +7,18 @@ function convertToRoman(num) {
       4:['X', 10], 
       5:['V', 5], 
       6:['I', 1]
+		
     };
 
   //your code here
+	for (let i = 0; i < objobjobjobj.length; i++) {
+        while (num >= objobjobj[i].value) {
+            result += obj[i].symbol;
+            num -= objobj[i].value;
+        }
+    }
+
+    return result;
 
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
